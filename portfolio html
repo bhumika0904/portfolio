@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <nav>
+        <h1>PORTFOLIO</h1>
+        <p>Skills</p>
+        <p>Open-Source</p>
+        <p>Projects</p>
+    </nav>
+    <div class="content-container">
+        <div class="starter">
+           <h1 class="hi">Hi All I'm Bhumika!</h1>
+           <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint ratione aut quod nesciunt!<br> Optio, ex? Quibusdam dignissimos eaque neque dolorem ex beatae. Quas animi odio quod<br> quibusdam nobis vitae!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum<br> vel autem optio similique? Maiores eligendi quibusdam distinctio tempore ullam, cumque<br> magni, inventore dolorum blanditiis eaque quaerat quidem earum at aut.vel autem<br> optio similique? Maiores eligendi quibusdam distinctio tempore ullam, cumque magni,<br> inventore dolorum blanditiis eaque quaerat quidem earum at aut.</p>
+        </div>
+    </div>
+    <div class="image-intro">
+        <img class="img-self" src="C:\Users\91828\OneDrive\Desktop\Bhumika Doc\Bhumika Pics\Bhumika Photo .jpg" alt="Bhumika's Image">
+    </div>
+    <hr class="boundry">
+    <div class="skills-container">
+        <div class="points">
+            <h1 class="hi">Skills</h1>
+            <h3 class="intro1">Programming:</h3>
+            <li class="intro">C++, Python, HTML, CSS, JavaScript</li>
+            <h3 class="intro1">Web Development:</h3>
+            <li class="intro">Completed several web projects</li>
+            <h3 class="intro1">Soft Skills:</h3>
+            <li class="intro">Presentation and communication</li>
+        </div>
+        <div class="pointer2">
+            <h3 class="intro1">Passion:</h3>
+            <li class="intro">Love for coding and continuous learning</li>
+            <h3 class="intro1">Personal Attributes:</h3>
+            <li class="intro">Passionate coder</li>
+            <li class="intro">Effective communicator</li>
+        </div>
+        <div class="skills-img">
+            <img class="imgskills" src="skills.png" alt="Skills Image">
+        </div>
+    </div>
+    
+    <hr class="boundry">
+    <h2 class="hi">Projects</h2>
+    <p class="intro">Here are some of the projects I have made:</p>
+    <h2 class="first">1) Bankist App:</h2>
+    <p class="intro">
+        The Bankist App is a comprehensive financial application designed to manage personal banking transactions. It provides users with a detailed view of their transaction history,<br> including both withdrawals and deposits. Key features of the app include the ability to transfer money to other accounts seamlessly and securely, as well as the option to close<br> accounts when needed. The Bankist App ensures a user-friendly experience, making it easy to handle all banking needs in one place.</p>
+
+        <img class="proj1" src="jdpic.jpeg">
+        <img class="proj1" src="trans.jpeg">
+        <img class="proj1" src="close.jpeg">
+
+        <h2 class="first">2) Flipkart Clone:</h2>
+        <p class="intro">
+The Flipkart clone is a comprehensive e-commerce application designed to replicate the user experience of the popular online shopping platform. This clone features a <br>user-friendly login system, an intuitive search functionality, a recognizable logo, and a fully functional shopping cart. Users can browse a wide array of products, providing<br> a seamless and engaging shopping experience.</p>
+
+            <img class="proj1" src="flip.jpeg">
+
+            <h2 class="first">3) Modal Window:</h2>
+            <p class="intro">
+                The modal window is a versatile feature implemented using HTML, CSS, and JavaScript. When triggered, it opens a new window overlaying the current content, providing<br> a focused space for additional information or user interactions without navigating away from the main page. This modal can be used for various purposes, such as displaying<br> forms, notifications, or detailed content, enhancing the user experience with a seamless and interactive design.</p>
+    
+                <img class="proj1" src="modal.jpeg">
+                <img class="proj1" src="modal1.jpeg">
+                <img class="proj1" src="modal2.jpeg">
+
+    <hr class="boundry">
+    <h1 class="hi">Resume</h1>
+    <p class="intro">You can download my resume from the below given link :-</p>
+    <a class="resume" href="documents/resume.pdf" target="_blank">Download Resume</a>
+
+    <hr class="boundry">
+    <h1 class="hi">Contact Me</h1>
+    <p class="intro">Email: bhumigupta58@gmail.com</p>
+    <p class="intro">Phone: +91 8700798709</p>
+    <p class="intro">
+        Github:
+        <a
+          target="_blank"
+          href="https://github.com/bhumika0904"
+          >Bhumika Gupta</a
+        >
+      </p>
+    <footer class="footer">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <a class="footer__link" href="#">About</a>
+          </li>
+          
+          <li class="footer__item">
+            <a class="footer__link" href="#">Careers</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Blog</a>
+          </li>
+         
+        </ul>
+        
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            class="footer__link twitter-link"
+            target="_blank"
+            href="https://github.com/bhumika0904"
+            >Bhumika Gupta</a
+          >
+        </p>
+      </footer>
+  
+</body>
+</html>
+
