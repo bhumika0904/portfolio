@@ -18,23 +18,23 @@
   }
 nav {
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Distribute space between items */
-    background-color: #333; /* Example background color */
-    padding: 20px 10px; /* Example padding */
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #333; 
+    padding: 20px 10px; 
 }
 
 nav h1 {
-    margin-right: auto; /* Push the h1 to the far left */
+    margin-right: auto; 
     margin-left: 8px;
-    color: white; /* Example text color */
+    color: white; 
     font-size:20px;
 }
 
 nav p {
-    margin: 0 15px; /* Add horizontal margin between p elements */
-    color: white; /* Example text color */
-    cursor: pointer; /* Change cursor to pointer */
+    margin: 0 15px; 
+    color: white; 
+    cursor: pointer; 
     font-size:17px;
 }
 nav p:hover{
@@ -62,7 +62,7 @@ nav p:hover{
     height:80px; }
 
 .starter {
-    margin-right: 20px; /* Add space between the starter and the image */
+    margin-right: 20px; 
 }
 
 .image-intro {
@@ -70,8 +70,8 @@ nav p:hover{
 }
 
 .img-self {
-    width: 140px; /* Ensure the image scales properly */
-    height: auto; /* Maintain aspect ratio */
+    width: 140px; 
+    height: auto; 
 }
 
 .boundry{
@@ -85,13 +85,12 @@ nav p:hover{
 
 .skills-container {
     display: flex;
-    justify-content: space-between; /* Space between items */
-}
+    justify-content: space-between; }
 
 
 .imgskills {
-    max-width: 100%; /* Ensure the image scales properly */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .points, .pointer2{
