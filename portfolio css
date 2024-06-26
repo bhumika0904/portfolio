@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.9;
+    background-color: #f3f3f3;
+  }
+nav {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute space between items */
+    background-color: #333; /* Example background color */
+    padding: 20px 10px; /* Example padding */
+}
+
+nav h1 {
+    margin-right: auto; /* Push the h1 to the far left */
+    margin-left: 8px;
+    color: white; /* Example text color */
+    font-size:20px;
+}
+
+nav p {
+    margin: 0 15px; /* Add horizontal margin between p elements */
+    color: white; /* Example text color */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size:17px;
+}
+nav p:hover{
+    text-decoration:underline;
+
+}
+
+.hi{
+    font-size:30px;
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+.intro{
+    font-size:15px;
+    margin-left:30px;
+
+}
+
+.intro1{
+    margin-left: 30px;
+}
+.content-container {
+    display: flex;
+    height:80px; }
+
+.starter {
+    margin-right: 20px; /* Add space between the starter and the image */
+}
+
+.image-intro {
+    margin-left:750px;
+}
+
+.img-self {
+    width: 140px; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.boundry{
+    margin-top:20px
+}
+
+.skills{
+    margin-left:30px;
+    font-size:15px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+}
+
+
+.imgskills {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.points, .pointer2{
+    margin-left: 30px;
+    gap:10px;
+    width:250px;
+    font-size:20px;
+}
+.pointer2{
+    margin-top:76px;
+}
+
+.skills-img{
+    margin-top:40px;
+    margin-right:30px;
+    width:300px;
+    height:400px;
+}
+.proj1{
+    width:350px;
+    height:300px;
+    margin-right:95px;
+    margin-top:10px;
+}
+
+.first{
+    font-size:17px;
+    margin-left: 25px;
+}
+
+.resume{
+    margin-left:30px;
+    font-size:18px;
+}
+
+.footer {
+    padding: 5rem 3rem;
+    background-color: #37383d;
+margin-top:30px;
+  }
+  
+  .footer__nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  
+  .footer__item {
+    margin-right: 4rem;
+  }
+  
+  .footer__link {
+    font-size: 1.6rem;
+    color: #eee;
+    text-decoration: none;
+  }
+  
+  .footer__logo {
+    height: 5rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  
+  .footer__copyright {
+    font-size: 1.4rem;
+    color: #aaa;
+    text-align: center;
+  }
+  
+  .footer__copyright .footer__link {
+    font-size: 1.4rem;
+  }
